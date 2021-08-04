@@ -43,7 +43,6 @@ function draw(){
   this.input.style("width", "150px")
   this.input.style("height", "50px")
 
-  text(score, 100, 100)
 
   this.button.mousePressed(()=>{
     this.button.hide();
